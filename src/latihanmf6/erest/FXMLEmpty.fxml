@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="233.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="latihanmf6.erest.FXMLEmptyController">
+    <children>
+      <Label layoutX="8.0" layoutY="25.0" text="Peminjam">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="50.0" text="Jenis Buku">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="75.0" text="Tanggal Pinjam">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="100.0" text="Tanggal Kembali">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="125.0" text="--------------------------------------------------- -">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="150.0" text="Lama Pinjam">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="175.0" text="Batas Pinjam">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="200.0" text="--------------------------------------------------- +">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="225.0" text="Selisih">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="250.0" text="Denda/Hari">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="275.0" text="--------------------------------------------------- X">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="300.0" text="Denda">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="325.0" text="Bonus">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="25.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="50.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="75.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="100.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="150.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="175.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="225.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="250.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="300.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="325.0" text=":">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Nama_Peminjamlbl" layoutX="130.0" layoutY="25.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Jenis_Bukulbl" layoutX="130.0" layoutY="50.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="Tanggal_Pinjamlbl" layoutX="130.0" layoutY="75.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="tglkembalilbl" layoutX="130.0" layoutY="100.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lamapinjamlbl" layoutX="130.0" layoutY="150.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="bataspinjamlbl" layoutX="130.0" layoutY="175.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="selisih_lbl" layoutX="130.0" layoutY="225.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="hargadendalbl" layoutX="130.0" layoutY="250.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dendalbl" layoutX="130.0" layoutY="300.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="bonuslbl" layoutX="130.0" layoutY="325.0" text="Label">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="150.0" text="Hari">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="175.0" text="Hari">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="225.0" text="Hari">
+         <font>
+            <Font name="Microsoft Himalaya" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
